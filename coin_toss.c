@@ -22,14 +22,9 @@ int main() {
             tails++;
         }
     }
-
-    printf("Heads: %d, Tails: %d\n", heads, tails);
-    if (heads > tails) {
-        printf("You won!\n");
-    } else {
-        printf("You lost\n");
-    }
-
+    
+    printf("Heads: %d, Tails: %d\n", heads_count, tails_count);
+    
     return 0;
 }
 
